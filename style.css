@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
-	list-style: none;
+	
 	text-decoration: none;
 }
 
@@ -43,6 +43,9 @@ header{
 }
 .navbar{
 	display: flex;
+}
+ul.navbar{
+	list-style:none ;
 }
 .navbar a{
 	color: var(--text-coLor);
@@ -213,6 +216,7 @@ section{
 .main{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 .footer{
 	padding: 10px 0;
@@ -250,7 +254,7 @@ section{
 	transform: translateX(-12px);
 }
 .col .social{
-	width: 220px;
+	width: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -272,6 +276,8 @@ section{
 	color: var(--bg-color);
 	background: var(--text-coLor);
 }
+
+
 @media (max-width: 1560px) {
 	header{
 		padding: 15px 40px;
